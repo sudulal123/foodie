@@ -1,4 +1,4 @@
-# Foodie recipe
+# Foodie
 A recipe App
 
 Description TBD
