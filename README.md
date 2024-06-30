@@ -32,7 +32,7 @@ Foodie allows you to view, add, and manage your favorite recipes. It's built usi
   - Create a new database instance on ElephantSQL.
   - Copy the connection string provided by ElephantSQL.
 - [Spoonacular API key](https://spoonacular.com/food-api) for recipe API
-  - Add the api key to the API_KEY variable in the .env file
+  - Add the api key to the `API_KEY` variable in the `.env` file
 - [Prisma](https://www.prisma.io/) setup
 
   - Replace the `DATABASE_URL` in the `.env` file with your ElephantSQL connection string
