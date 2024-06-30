@@ -2,8 +2,8 @@
   <br />
     <a>
       <h1 align="center">Foodie - A recipe app</h3>
-      <img src="https://github.com/sudulal123/aurento/assets/86375908/e73591a5-8349-4a31-b518-fdf6a402f57e" alt="Project screenshot_1">
-      <img src="https://github.com/sudulal123/aurento/assets/86375908/906381e2-ec36-4503-9ddd-315667078a49" alt="Project screenshot_2">
+      <img src="" alt="Project screenshot_1">
+      <img src="" alt="Project screenshot_2">
     </a>
 
   <br />
