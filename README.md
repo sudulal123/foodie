@@ -13,7 +13,6 @@
 2. [Tech Stacks](#tech-stacks)
 3. [Quick Start](#quick-start)
 4. [Features](#features)
-5. [To-do](#to-do)
 
 ## <a name="introduction"> Introduction </a>
 
@@ -87,8 +86,10 @@ It's built using React for the frontend and Node.js with Prisma for the backend.
 
 **TBD**: TBD.
 
+<!-- 
+5. [To-do](#to-do)
 ## <a name="to-do"> To-do </a>
-
 - [ ] TBD
 - [ ] TBD
 - [ ] TBD
+-->
