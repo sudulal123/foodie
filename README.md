@@ -1,28 +1,34 @@
 <div align="center">
   <br />
     <a>
-      <h1 align="center">Foodie - A recipe app</h3>
-      <img src="" alt="Project screenshot_1">
-      <img src="" alt="Project screenshot_2">
+      <img src="" alt="Project Banner">
     </a>
-
   <br />
-
+  <h3 align="center">Foodie - A recipe app</h3>
 </div>
 
-## <a>Introduction</a>
+## <a name="table">Table of Contents</a>
 
-Foodie allows you to view, add, and manage your favorite recipes. It's built using React for the frontend and Node.js with Prisma for the backend.
+1. [Introduction](#introduction)
+2. [Tech Stacks](#tech-stacks)
+3. [Quick Start](#quick-start)
+4. [Features](#features)
+5. [To-do](#to-do)
 
-## <a>Tools</a>
+## <a name="introduction"> Introduction </a>
+
+Foodie allows you to view, add, and manage your favorite recipes.
+
+It's built using React for the frontend and Node.js with Prisma for the backend.
+
+## <a name="tech-stacks"> Tech Stack </a>
 
 - React
 - Node.js
 - TypeScript
 - PostgresSQL
 
-
-## Setup
+## <a name="quick-start"> Quick Start </a>
 
 **Prerequisites**
 
@@ -72,3 +78,17 @@ Foodie allows you to view, add, and manage your favorite recipes. It's built usi
   # start frontend server
     npm run dev
   ```
+
+## <a name="features"> Features </a>
+
+**TBD**: TBD.
+
+**TBD**: TBD.
+
+**TBD**: TBD.
+
+## <a name="to-do"> To-do </a>
+
+- [ ] To Fix: TBD
+- [ ] To Fix: TBD
+- [ ] To implement: TBD
