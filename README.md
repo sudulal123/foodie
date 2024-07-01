@@ -89,6 +89,6 @@ It's built using React for the frontend and Node.js with Prisma for the backend.
 
 ## <a name="to-do"> To-do </a>
 
-- [ ] To Fix: TBD
-- [ ] To Fix: TBD
-- [ ] To implement: TBD
+- [ ] TBD
+- [ ] TBD
+- [ ] TBD
