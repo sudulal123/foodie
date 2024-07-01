@@ -49,34 +49,34 @@ It's built using React for the frontend and Node.js with Prisma for the backend.
 
   ```bash
   # Clone the Repository
-    git clone https://github.com/sudulal123/foodie.git
-    cd foodie
+  git clone https://github.com/sudulal123/foodie.git
+  cd foodie
 
   # Navigate to the backend directory
-   cd backend
+  cd backend
 
   # Install npm packages
-   npm install
+  npm install
 
   # Initialize Prisma and generate the Prisma client
-    npx prisma init
-    npx prisma generate
+  npx prisma init
+  npx prisma generate
 
   # Start the backend server
-    npm start
+  npm start
   ```
 
   **Frontend setup**:
 
   ```bash
   # Navigate to frontend directory
-    cd frontend
+  cd frontend
 
   # Install npm packages
-    npm install
+  npm install
 
   # start frontend server
-    npm run dev
+  npm run dev
   ```
 
 ## <a name="features"> Features </a>
