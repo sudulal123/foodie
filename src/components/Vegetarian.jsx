@@ -1,47 +1,48 @@
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/splide/dist/css/splide.min.css";
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import "@splidejs/splide/dist/css/splide.min.css";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 
-function Popular() {
-  const [popular, setPopular] = useState([]);
+function Vegetarian() {
+  const [vegetarian, setVegetarian] = useState([]);
 
   useEffect(() => {
-    getPopular();
+    getVegetarian();
   }, []);
 
-  const getPopular = async () => {
-    // Check if there is anything Popular item in local storage [To minimize overusing API Quota]
-    const check = localStorage.getItem("popular");
+  const getVegetarian = async () => {
+    // Check if there is anything Vegetarian item in local storage [To minimize overusing API Quota]
+    const check = localStorage.getItem("vegetarian");
 
     if (check) {
-      setPopular(JSON.parse(check));
+      setVegetarian(JSON.parse(check));
     } else {
       const api = await fetch(
-        `https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=9`
+        `https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=9&tags=vegetarian`
       );
       const data = await api.json();
 
-      localStorage.setItem("popular", JSON.stringify(data.recipes));
-      setPopular(data.recipes);
+      localStorage.setItem("vegetarian", JSON.stringify(data.recipes));
+      setVegetarian(data.recipes);
+      console.log(data.recipe);
     }
   };
 
   return (
     <div>
       <Wrapper>
-        <h3>Popular Picks</h3>
+        <h3>Vegetarian Picks</h3>
         <Splide
           options={{
-            perPage: 4,
+            perPage: 3,
             gap: "5rem",
             drag: "free",
             arrows: false,
             pagination: false,
           }}
         >
-          {popular.map((recipe) => {
+          {vegetarian.map((recipe) => {
             return (
               <SplideSlide key={recipe.id}>
                 <Card>
@@ -74,7 +75,7 @@ const Gradient = styled.div`
 
 const Card = styled.div`
   overflow: hidden;
-  min-height: 15rem;
+  min-height: 20rem;
   position: relative;
   border-radius: 2rem;
 
@@ -105,4 +106,4 @@ const Card = styled.div`
   }
 `;
 
-export default Popular;
+export default Vegetarian;

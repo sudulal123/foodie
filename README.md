@@ -13,6 +13,7 @@
 2. [Tech Stacks](#tech-stacks)
 3. [Quick Start](#quick-start)
 4. [Features](#features)
+5. [Goals](#goals)
 
 ## <a name="introduction"> Introduction </a>
 
@@ -62,6 +63,14 @@ It's built using React for the frontend and Node.js for the backend.
 **TBD**: TBD.
 
 **TBD**: TBD.
+
+## <a name="goals"> Goals </a>
+
+The goal of this project is to focus less on aesthetic aspects and more on data fetching using API. 
+
+We use `Spoonacular API` for fetching Food Recipe information including description and pictures of food, as well as ingredients. 
+
+Then we display the information in a categorical manner, such as Italian, Japanese, Thai & Japanese cuisine. To make the website more lively, we also use Framer-motion for subtle animation.
 
 <!-- 
 5. [To-do](#to-do)
