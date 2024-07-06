@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a>
-      <img src="" alt="Project Banner">
+      <img src="https://github.com/sudulal123/foodie/assets/86375908/ce9c616f-57f6-44bc-9c18-3d7df169db63" alt="Project Banner">
     </a>
   <br />
   <h3 align="center">Foodie - A recipe app</h3>
@@ -25,7 +25,7 @@ It's built using React for the frontend and Node.js for the backend.
 
 - React
 - Node.js
-- TypeScript
+- Framer-motion
 
 ## <a name="quick-start"> Quick Start </a>
 
@@ -52,17 +52,17 @@ It's built using React for the frontend and Node.js for the backend.
   # Run the local server at http://localhost:3000
   npm start
 
-  # Production
-  npm run build
+  # Build for production in the build/ directory
+  npm build
   ```
 
 ## <a name="features"> Features </a>
 
-**TBD**: TBD.
+**Reload Animation**: Implement subtle animations for page reloads and transitions. 
 
-**TBD**: TBD.
+**Card swipe**: Card swipe functionality for enhanced viewing options.
 
-**TBD**: TBD.
+**Search functionality**: Search Functionality for Preferred Cuisine.
 
 ## <a name="goals"> Goals </a>
 
