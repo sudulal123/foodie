@@ -23,9 +23,8 @@ function Vegetarian() {
       );
       const data = await api.json();
 
-      localStorage.setItem("vegetarian", JSON.stringify(data.recipes));
+      // localStorage.setItem("vegetarian", JSON.stringify(data.recipes));
       setVegetarian(data.recipes);
-      console.log(data.recipe);
     }
   };
 

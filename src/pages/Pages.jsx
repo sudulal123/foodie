@@ -13,7 +13,7 @@ function Pages() {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/cuisine/:type" element={<Cuisine />} />
-        <Route path="/results/:results" element={<Results />} />
+        <Route path="/results/:result" element={<Results />} />
         <Route path="/recipe/:name" element={<Recipe />} />
       </Routes>
     </AnimatePresence>
