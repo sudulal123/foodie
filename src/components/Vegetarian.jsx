@@ -74,7 +74,7 @@ const Gradient = styled.div`
 
 const Card = styled.div`
   overflow: hidden;
-  min-height: 20rem;
+  min-height: 15rem;
   position: relative;
   border-radius: 2rem;
   filter: drop-shadow(5px 5px 5px #000000);

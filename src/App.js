@@ -34,7 +34,7 @@ const Logo = styled(Link)`
 
 const Nav = styled.div`
   display: flex;
-  padding-top: 0.5rem;
+  padding-top: 0rem;
   align-items: center;
   justify-content: center;
 
