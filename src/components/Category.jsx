@@ -44,6 +44,7 @@ const SLink = styled(NavLink)`
   text-decoration: none;
   flex-direction: column;
   justify-content: center;
+  filter: drop-shadow(5px 5px 5px #000000);
   background: linear-gradient(35deg, #494949, #313131);
 
   h4 {
@@ -53,7 +54,7 @@ const SLink = styled(NavLink)`
 
   svg {
     color: white;
-    font-size: 1.5;
+    font-size: 1;
   }
 
   &.active {

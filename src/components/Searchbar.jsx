@@ -35,6 +35,7 @@ const FormStyle = styled.form`
     padding: 0.5rem;
     align-items: right;
     position: relative;
+    filter: drop-shadow(5px 5px 5px #000000);
   }
   input {
     width: 100%;
