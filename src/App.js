@@ -30,6 +30,7 @@ const Logo = styled(Link)`
   font-size: 1.5rem;
   text-decoration: none;
   font-family: "Lobster Two", cursive;
+  filter: drop-shadow(5px 5px 4px #000000);
 `;
 
 const Nav = styled.div`
