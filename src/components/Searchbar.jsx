@@ -27,9 +27,13 @@ function Searchbar() {
 }
 
 const FormStyle = styled.form`
-  margin: 0rem 20rem;
+
   div {
-    width: 100%;
+    width: 95%;
+    display: flex;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    align-items: right;
     position: relative;
   }
   input {
@@ -45,7 +49,7 @@ const FormStyle = styled.form`
   }
   svg {
     top: 50%;
-    left: 0%;
+    left: -4%;
     color: white;
     position: absolute;
     transform: translate(100%, -50%);

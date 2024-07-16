@@ -28,13 +28,14 @@ function Category() {
 
 const List = styled.div`
   display: flex;
-  margin: 2rem 0rem;
+  margin: 0.5rem 0rem;
+  align-items: center;
   justify-content: center;
 `;
 
 const SLink = styled(NavLink)`
-  width: 6rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
   display: flex;
   cursor: pointer;
   border-radius: 50%;

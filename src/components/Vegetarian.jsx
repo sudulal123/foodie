@@ -61,14 +61,14 @@ function Vegetarian() {
 }
 
 const Wrapper = styled.div`
-  margin: 4rem 0rem;
+  margin: 2rem;
 `;
 
 const Gradient = styled.div`
   z-index: 3;
-  position: absolute;
   width: 100%;
   height: 100%;
+  position: absolute;
   background: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.5));
 `;
 
@@ -77,6 +77,7 @@ const Card = styled.div`
   min-height: 20rem;
   position: relative;
   border-radius: 2rem;
+  filter: drop-shadow(5px 5px 5px #000000);
 
   img {
     left: 0;

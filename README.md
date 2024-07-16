@@ -66,7 +66,7 @@ It's built using React for the frontend and Node.js for the backend.
 
 ## <a name="goals"> Goals </a>
 
-The goal of this project is to focus less on aesthetic aspects and more on data fetching using API. 
+The goal of this project is to focus less on aesthetic and more on data fetching using API. 
 
 We use `Spoonacular API` for fetching Food Recipe information including description and pictures of food, as well as ingredients. 
 
