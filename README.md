@@ -50,10 +50,10 @@ It's built using React for the frontend and Node.js for the backend.
   npm install
 
   # Run the local server at http://localhost:3000
-  npm start
+  npm run start
 
   # Build for production in the build/ directory
-  npm build
+  npm run build
   ```
 
 ## <a name="features"> Features </a>
