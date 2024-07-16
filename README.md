@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a>
-      <img src="https://github.com/user-attachments/assets/99a11565-1bef-4f4e-ab02-7b048c398b63" alt="Project Banner">
+      <img src="https://github.com/user-attachments/assets/f7afa488-afa0-4565-ae00-58f57c5bb52a" alt="Project Banner">
     </a>
   <br />
   <h3 align="center">Foodie - A recipe app</h3>
